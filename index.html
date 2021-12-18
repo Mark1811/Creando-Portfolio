@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Marcos Aguero</title>
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="decoracion.css">
-
-    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="PortadaTitulo.css">
+    <link rel="stylesheet" href="sobremi.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
   </head>
   <body> 
 
     <!--Nav-->
-        <header>
+     
+      <header>
             <input type="checkbox" id="check">
             <label for="check"><img src="img/border-width.svg" class="icon-menu"></label>
            
@@ -23,98 +25,48 @@
                 <li><a href="#">Contacto</a></li>
                </ul>
             </nav>
-
-        </header>
-
-      <!--                                 titulo             -->
-      <div class="container-fluid">
-          <div id="titulo" class="row align-items-center">
-
-               
-            <div class="col-12 ">
-                  <div class="cajasvg"> <img src="img/tec-human.svg" class="imgsvg"> </div>
-              
-              <h1>Marcos Aguero <br> <span class="efectoLe"></span></h1>
-              <h2>Full Stack Developer Jr</h2>      
-            </div>
-            
+      <!---------------------------TITULO--------------------->
+    <div class="contenedor">
+          <div class="contenedor-textos">
+            <h1>Marcos Aguero</h1>
+            <h2>Frontend developer jr</h2>
           </div>
-      </div>
-    <!--                                    SOBRE MI            -->
-    <div class="sub-expand-md" id="sobre">
-        <h2 class="subtitulo">Sobre Mi</h2>
-      </div>
-
-      <div class="container-fluid"> <!--dic-1-->
-        <!--mi foto-->
-         
-       <div class="row"> <!--dic-2-->
-            
-              <div class="contimg" id="moverimg">
-                 <img src="img/yop.png" class="img-fluid"> 
-               </div> 
-            
-       <!--Texto-->
-               <div class="col ">
-                <h3 class="texSobre" >Si hay algo que me caracteriza es que me involucro al 100% en todo lo que hago, pongo toda la energía que me aporta trabajar de aquello que tanto me entusiasma. Sin duda, me siento muy afortunado de haber encontrado lo que me apasiona y de hacer de ello un labor.</h3>
-               </div>
-         
-     </div>   <!--dic-2-->
-   </div>     <!--dic-1-->
-
-
-    <!--SKILLS-->
-     <div  class="container"> <!--div-1-->
-        
-        <div  class="row align-items-center " id="ski">
-          <h2>Skills</h2>
-        </div>
-       
-        <div id="galeria" class="row row align-items-center ">  <!--fila-1-->
-            <div class="col-md"> <img src="img/html-5.png" alt="html" class="len">     </div>
-              
-            <div class="col-md"><img src="img/css-phoshop.png" alt="css3" class="len"></div>
-                 
-            <div class="col-md"><img src="img/js.png" id="javaScript" alt="js" class="len" ></div>
-
-        </div><!--fila-1-->
-
-        <div id="galeria" class="row ">  <!--fila-2-->
-          <div class="col-md"> <img src="img/rect.png" alt="rect" class="len">     </div>
-            
-          <div class="col-md"><img src="img/node-js (2).png" alt="nodejs" class="len"></div>
-               
-          <div class="col-md"><img src="img/boostrap.png"  alt="boostrap" class="len"></div>
-
-        </div><!--fila-2-->
-
-        <div id="galeria" class="row ">  <!--fila-3-->
-          <div class="col-md"> <img src="img/java.png" alt="java" class="len">     </div>
-            
-          <div class="col-md"><img src="img/c.png" alt="C" class="len"></div>
-               
-          <div class="col-md"><img src="img/sql-server.png"  alt="sql-server" class="len"></div>
-
-        </div><!--fila-3 -->
-       
-        
       
+      <div class="contenedor-img">
+        <img src="img/tec-human.svg">
+      </div>    
+    </div><!-- cierro caja contenedor-->
+  </header>
+    <!-----------------------------SOBRE MI---------------------------->
+         <section>
+          <h1 class="titulo">Sobre mi</h1>
+            <div class="contenedor"><!--abro contenedor sobre mi-->
+           
+                  <div class="contenedor-img-foto">
+                   <img src="img/yop.png">
+                  </div>
+               
+
+             <div class="texto-sobremi">
+               <p>Si hay algo que me caracteriza es que me involucro al 100% en todo lo que hago, pongo toda la energía que me aporta trabajar de aquello que tanto me entusiasma. Sin duda, me siento muy afortunado de haber encontrado lo que me apasiona y de hacer de ello un labor.</p>
+             </div>    
+            
+            </div><!--cierro contenedor sobre mi-->
+
+         </section>
+
+    <!------------------------------SKILLS----------------------------->
+     
 
 
-    </div><!--div-1-->
+    
 
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
     <script src="dinamico.js"></script>
   </body>
-
-   <footer>
-     <div class="container-fluid">
-         
-
-     </div>
-   </footer>
-
-
 </html>
