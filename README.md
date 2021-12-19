@@ -1,2 +1,2 @@
 # CreandoPortfolio
-Crean un portfolio con html-css-js y boostrap
+Creando un portfolio con html-css-js
